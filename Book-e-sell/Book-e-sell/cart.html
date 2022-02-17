@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link href="css/cart.css" rel="stylesheet" type="text/css" media="screen, projection"/>
+    <link rel="icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/favicon/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon/android-chrome-384x384.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="images/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="images/favicon/mstile-150x150.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon/favicon-16x16.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <script src="jquery-3.6.0.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d9db3552f9.js"
+      crossorigin="anonymous"
+    ></script>
+
+</head>
+<body>
+    <header>
+        <div class="site-header-wrapper">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="logo-wrapper">
+                        <a class="site-logo" title="logo" href="#"><img src="images/site-logo.svg"
+                                alt="Tatvasoft" /></a>
+                    </div>
+                    <div class="nav-wrapper">
+                        <div class="top-right-bar">
+                            <ul class=" top-nav-bar">
+                                <li>
+                                    <a title="Login" href="login.html">Login</a>
+                                </li>
+                                <li class="line">|</li>
+                                <li>
+                                    <a title="Register" href="register.html">Register</a>
+                                </li>
+                                <list class= "Cart"><a title="Cart" href="cart.html"
+                                    ><img src="images/cart.svg" alt="cart" /><span class="c1"  >0 </span>
+                                <div class="c2">Cart</div>
+                                    </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="lower-header">
+              <div class="input-box">
+                <input type="text" class="text" placeholder = "what are you looking for ? ">
+                <button class="search" aref="">Search</button>
+                <button class="cancel">Cancel</button>
+              </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="cart-page-wrapper">
+            <div class="container">
+                <h1>Cart</h1>
+                <div class="cart-items-wrapper">
+                    <div class="name-wrapper">
+                        <div class="my-shooping-bag" id="total items">
+                            My Shooping bag(3 items) 
+                        </div>
+                        <div class="total-price-wrapper">
+                            <p id="total-price">Total price : 3000</p>
+                        </div>
+                    </div>
+                    <div class="cart-list-wrapper">
+                        <div class="cart-item">
+                            <div class="cart-details">
+                            <div class="left-cart-item">
+                                <img src="images/dummy-image.png" width="150px" height="117.2"  >
+                            </div>
+                            <div class="mid-cart-item">
+                                <p class="campus-sutra">Campus Sutra</p>
+                                <p class="cart-item-name">Cart item name</p>
+                                <div class="qty">
+                                <span class="qt-minus">-</span>
+                                <span class="qt">1</span>
+                                <span class="qt-plus">+</span>
+                                </div>
+                            </div>
+                            <div class="right-cart-item">
+                                <div class="price">500 </div>
+                                <div class="discount"></span ><del>1000</del><div class="dis-percent" id="dis-percent">50% OFF</div></div>
+                                <div class="remove"> Remove </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="cart-item">
+                            <div class="cart-details">
+                            <div class="left-cart-item">
+                                <img src="images/dummy-image.png" width="150px" height="117.2"  >
+                            </div>
+                            <div class="mid-cart-item">
+                                <p class="campus-sutra">Campus Sutra</p>
+                                <p class="cart-item-name">Cart item name</p>
+                                <div class="qty">
+                                <span class="qt-minus">-</span>
+                                <span class="qt">1</span>
+                                <span class="qt-plus">+</span>
+                                </div>
+                            </div>
+                            <div class="right-cart-item">
+                                <div class="price">500 </div>
+                                <div class="discount"></span ><del>1000</del><div class="dis-percent" id="dis-percent">50% OFF</div></div>
+                                <div class="remove">Remove </div> 
+                                
+                            </div>
+                            </div>
+                        </div>
+                        <div class="cart-item">
+                            <div class="cart-details">
+                            <div class="left-cart-item">
+                                <img src="images/dummy-image.png" width="150px" height="117.2"  >
+                            </div>
+                            <div class="mid-cart-item">
+                                <p class="campus-sutra">Campus Sutra</p>
+                                <p class="cart-item-name">Cart item name</p>
+                                <div class="qty">
+                                <span class="qt-minus">-</span>
+                                <span class="qt">1</span>
+                                <span class="qt-plus">+</span>
+                                </div>
+                            </div>
+                            <div class="right-cart-item">
+                                <div class="price">500 </div>
+                                <div class="discount"></span ><del>1000</del><div class="dis-percent" id="dis-percent">50% OFF</div></div>
+                                <div class="remove">Remove</div>
+                                    
+                                
+                            </div>
+                            </div>
+                        </div>
+                        <div class="cart-item">
+                            <div class="cart-details">
+                            <div class="left-cart-item">
+                                <img src="images/dummy-image.png" width="150px" height="117.2"  >
+                            </div>
+                            <div class="mid-cart-item">
+                                <p class="campus-sutra">Campus Sutra</p>
+                                <p class="cart-item-name">Cart item name</p>
+                                <div class="qty">
+                                <span class="qt-minus">-</span>
+                                <span class="qt">1</span>
+                                <span class="qt-plus">+</span>
+                                </div>
+                            </div>
+                            <div class="right-cart-item">
+                                <div class="price">500 </div>
+                                <div class="discount"></span ><del>1000</del><div class="dis-percent" id="dis-percent">50% OFF</div></div>
+                                <div class="remove">Remove</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="place-order">Place Order</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer class="site-info">
+        <div class="footer-container">
+        <div class="logo">
+            <a class="foo-site-logo" title="logo" href="#"><img src="images/site-logo.svg"
+                    alt="Tatvasoft" /></a>
+        </div>
+        <p class="copy-right"> 2022 Tatvasoft.com . All right reserved.</p>
+        </div>
+    </div>
+        
+    </footer>
+</body>
+</html>
